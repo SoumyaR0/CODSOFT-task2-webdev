@@ -1,0 +1,100 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image: url('./Image/pexels-max-ravier-2253821.jpg');
+            background-size: cover; background-position: center;
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+            position: relative;
+        }
+        header a{
+            
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #FF9800;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        header a:hover{
+            background-color: #E64A19;
+        }
+
+        header div{
+            background-color: rgba(0, 51, 102, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header .logo{
+            font-family:'Pacifico', cursive;
+            font-size: 3.5em;
+            color: #FF9800;
+            margin-bottom: 10px;
+        }
+
+        header p{
+            font-size: 1.2em;
+        }
+
+        section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            color: #003366;
+        }
+
+        .here{
+            background-image: url('./Image/pexels-franssy-acosta-16904540.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333; padding: 50px 20px;
+        }
+
+        .here .info{
+            color: #50a72d;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #FF9800;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #E64A19;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
